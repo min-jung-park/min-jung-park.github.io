@@ -1,0 +1,45 @@
+/* Minjung Park — tweaks on top of reference styles */
+
+.site-title,
+.site-title:visited {
+  color: #FD5DA8 !important;
+}
+
+.site-title:hover {
+  color: #E63288 !important;
+}
+
+#self_img {
+  width: 210px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+.statement-body {
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+  line-height: 1.55;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.photo-credit {
+  font-size: 11px;
+  color: #666;
+  margin-top: 6px;
+  max-width: 210px;
+}
+
+/* Project case studies (moim_1.css) inside site .wrapper */
+.page-content .wrapper .content {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
